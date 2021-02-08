@@ -8,4 +8,84 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #040404;
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  transform: scale(1.5) rotate(-38deg);
+  top: -3em;
+  right: -12em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h1 {
+    font-size: 2.441rem;
+  }
+
+  h2 {
+    font-size: 1.953rem;
+  }
+
+  h3 {
+    font-size: 1.563rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  .background {
+    transform: scale(2) rotate(-38deg);
+    right: -14em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.052rem;
+  }
+
+  h2 {
+    font-size: 2.441rem;
+  }
+
+  h3 {
+    font-size: 1.953rem;
+  }
+
+  h4 {
+    font-size: 1.563rem;
+  }
+
+  .background {
+    transform: scale(2.5) rotate(-38deg);
+    right: -14em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3.815rem;
+  }
+
+  .background {
+    transform: scale(3) rotate(-38deg);
+    right: -14em;
+  }
+}
+
+/* Extra large devices (large desktops, 14000px and up) */
+@media (min-width: 1400px) {
+  .background {
+    transform: scale(4) rotate(-38deg);
+    top: 0;
+    right: 0;
+  }
 }
