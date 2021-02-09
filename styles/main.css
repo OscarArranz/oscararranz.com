@@ -84,7 +84,50 @@ body {
 /* Extra large devices (large desktops, 14000px and up) */
 @media (min-width: 1400px) {
   .background {
-    transform: scale(4) rotate(-38deg);
+    transform: scale(5) rotate(-38deg);
+    top: 0;
+    right: 0;
+  }
+}
+
+/* QHD (QHD desktops, 2500px and up) */
+@media (min-width: 2500px) {
+  .background {
+    transform: scale(7) rotate(-38deg);
+    top: 0;
+    right: 0;
+  }
+}
+
+/* 4k (UHD desktops, 3800px and up) */
+@media (min-width: 3800px) {
+  h1 {
+    font-size: 4.768rem;
+  }
+
+  h2 {
+    font-size: 3.052rem;
+  }
+
+  h3 {
+    font-size: 2.441rem;
+  }
+
+  h4 {
+    font-size: 1.953rem;
+  }
+
+  .background {
+    transform: scale(12) rotate(-38deg);
+    top: 0;
+    right: 0;
+  }
+}
+
+/* 5k (Apple retina screens, 5000px and up) */
+@media (min-width:5000px) {
+  .background {
+    transform: scale(15.5) rotate(-38deg);
     top: 0;
     right: 0;
   }
