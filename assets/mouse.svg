@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="82" viewBox="0 0 36 82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Mouse_Scroll" data-name="Mouse Scroll" transform="translate(-32 -9)">
+    <path id="Path_15" data-name="Path 15" class="cls-1" d="M56.6,79.6,50,86.2l-6.6-6.6a1.98,1.98,0,1,0-2.8,2.8l8,8a1.933,1.933,0,0,0,2.8,0l8-8a1.98,1.98,0,1,0-2.8-2.8Z"/>
+    <path id="Path_16" data-name="Path 16" class="cls-1" d="M59.4,68.6a1.933,1.933,0,0,0-2.8,0L50,75.2l-6.6-6.6a1.98,1.98,0,1,0-2.8,2.8l8,8a1.933,1.933,0,0,0,2.8,0l8-8A1.933,1.933,0,0,0,59.4,68.6Z"/>
+    <path id="Path_17" data-name="Path 17" class="cls-1" d="M68,45V27a18,18,0,0,0-36,0V45a18,18,0,0,0,36,0ZM50,59A14.041,14.041,0,0,1,36,45V27a14,14,0,0,1,28,0V45A14.041,14.041,0,0,1,50,59Z"/>
+    <path id="Path_18" data-name="Path 18" class="cls-1" d="M50,20a2.006,2.006,0,0,0-2,2v6a2,2,0,0,0,4,0V22A2.006,2.006,0,0,0,50,20Z"/>
+  </g>
+</svg>

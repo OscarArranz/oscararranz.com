@@ -1,0 +1,71 @@
+.landing {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35vh 0 0;
+  box-sizing: border-box;
+}
+
+.landing title {
+  font-weight: 500;
+}
+
+.profile-expertise {
+  margin-top: 1.5em;
+  font-weight: 300;
+}
+
+.html-markup {
+  color: #EF4116;
+  letter-spacing: 0.005rem;
+}
+
+.location {
+  display: block;
+  margin-top: 2.2em;
+  font-size: 10pt;
+  font-weight: 300;
+  opacity: .62;
+  display: flex;
+  align-items: center;
+  transition: transform .2s ease-out, opacity .2s ease-out;
+  cursor: default;
+  user-select: text;
+}
+
+.location:hover {
+  opacity: 1;
+  transform: translateY(-6px);
+}
+
+.location span {
+  margin-left: .3em;
+}
+
+.title {
+  font-weight: 500;
+}
+
+@keyframes mouse-animation {
+  0% {
+    transform: translateY(0)
+  }
+
+  75% {
+    transform: translateY(20px)
+  }
+
+  100% {
+    transform: translateY(0)
+  }
+}
+
+.landing .mouse {
+  margin-top: 4.5em;
+  animation-name: mouse-animation;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  user-select: none;
+}
