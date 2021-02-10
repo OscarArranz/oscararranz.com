@@ -7,7 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="icon.ico">
   <title>Oscar Arranz</title>
+
+  <!-- EXTERNAL SCRIPS  -->
   <script type="text/javascript" src="https://unpkg.com/external-svg-loader@latest/svg-loader.min.js" async></script>
+
+  <!-- STYLES -->
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/fonts.css">
   <link rel="stylesheet" href="styles/navbar.css">
@@ -67,12 +71,16 @@
         color="#FFF"></svg>
       <span>Madrid, Spain</span>
     </span>
-    <img class="mouse" src="assets/mouse.svg" draggable="false" width="64" height="64">
+    <div class="no-select">
+      <img class="mouse" id="mouse" src="assets/mouse.svg" draggable="false" width="64" height="64">
+    </div>
   </section>
-  <script src="scripts/navbar.js"></script>
   <footer>
     <p>Designed and coded with &#10084;&#65039; by © Oscar Arranz, 2020</p>
   </footer>
+
+  <!-- SCRIPTS -->
+  <script src="scripts/navbar.js"></script>
 </body>
 
 </html>

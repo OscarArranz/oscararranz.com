@@ -68,7 +68,6 @@
   animation-name: mouse-animation;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
-  user-select: none;
 }
 
 /* Small devices (landscape phones, 576px and up) */
