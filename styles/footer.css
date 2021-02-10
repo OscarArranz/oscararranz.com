@@ -1,0 +1,31 @@
+footer {
+  background-color: #F9F9F9;
+  padding: 1em 0;
+  text-align: center;
+  color: #000;
+  font-size: 0.512rem;
+  font-family: 'JetBrains Mono', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  footer {
+    font-size: 0.64rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  footer {
+    font-size: 1rem;
+  }
+}

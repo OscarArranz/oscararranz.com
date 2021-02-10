@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 35vh 0 0;
+  padding: 32.5vh 0;
   box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@
 
 .location {
   display: block;
-  margin-top: 2.2em;
+  margin-top: 4em;
   font-size: 10pt;
   font-weight: 300;
   opacity: .62;
@@ -62,10 +62,24 @@
   }
 }
 
-.landing .mouse {
+.mouse {
   margin-top: 4.5em;
   animation-name: mouse-animation;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   user-select: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 550px) {
+  .mouse {
+    margin-top: 6.6em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .location {
+    margin-top: 6em;
+  }
 }
