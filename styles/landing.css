@@ -20,6 +20,8 @@
 .html-markup {
   color: #EF4116;
   letter-spacing: 0.005rem;
+  font-weight: 600;
+  font-size: 15pt;
 }
 
 .location {
