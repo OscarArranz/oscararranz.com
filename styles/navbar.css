@@ -160,6 +160,7 @@
     display: inline-block;
     opacity: 1;
     transition: transform 0.2s ease-out;
+    padding: 0.8em 0;
   }
 
   .navbar-navigation li a:hover {

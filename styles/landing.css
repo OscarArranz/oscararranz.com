@@ -24,7 +24,8 @@
 
 .location {
   display: block;
-  margin-top: 4em;
+  margin-top: 3em;
+  padding: 1em 0;
   font-size: 10pt;
   font-weight: 300;
   opacity: .62;
@@ -37,7 +38,7 @@
 
 .location:hover {
   opacity: 1;
-  transform: translateY(-6px);
+  transform: scale(1.1);
 }
 
 .location span {
@@ -80,6 +81,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .location {
-    margin-top: 6em;
+    margin-top: 5em;
   }
 }
