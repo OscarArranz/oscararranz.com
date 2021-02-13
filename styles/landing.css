@@ -12,9 +12,17 @@
   font-weight: 500;
 }
 
+.landing .title::selection {
+  background: #292929;
+}
+
 .profile-expertise {
   margin-top: 1.5em;
   font-weight: 300;
+}
+
+.landing .profile-expertise::selection {
+  background: #292929;
 }
 
 .html-markup {
@@ -22,6 +30,10 @@
   letter-spacing: 0.005rem;
   font-weight: 600;
   font-size: 15pt;
+}
+
+.landing .html-markup::selection {
+  background: #292929;
 }
 
 .location {
@@ -45,6 +57,10 @@
 
 .location span {
   margin-left: .3em;
+}
+
+.location span::selection {
+  background: #292929;
 }
 
 .title {
